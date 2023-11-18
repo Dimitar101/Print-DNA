@@ -21,6 +21,3 @@ function printDNA(num) {
         console.log(line.join(''));
     }
 }
-
-
-printDNA(42)
