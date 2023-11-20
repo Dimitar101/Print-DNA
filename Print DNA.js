@@ -1,5 +1,5 @@
 function printDNA(num) {
-    const repsNeeded = (num / 4) + 1;   // console.log('a'.repeat(2.9));   // aa
+    const repsNeeded = (num / 4) + 1;
     const leftIndex = '2101'.repeat(repsNeeded).split('').splice(0, num);
     const rightIndex = '3454'.repeat(repsNeeded).split('').splice(0, num);
     const DNA = [['A', 'T'], ['C', 'G'], ['T', 'T'], ['A', 'G'], ['G', 'G']];
